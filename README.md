@@ -1,4 +1,4 @@
-# eQuest Solutions - Fullstack Practical
+# ShopUp Fullstack Practical
 
 
 I am using node  V18
