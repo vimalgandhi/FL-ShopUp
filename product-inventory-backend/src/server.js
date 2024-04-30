@@ -1,6 +1,5 @@
 const express = require("express");
 const app = express();
-const art = require("../asciiart");
 const cors = require("cors");
 require("./configs/db")();
 
@@ -18,6 +17,5 @@ app.get("/health-check", (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(art);
     console.log(`Server status : Running on port ${port}`);
 })
